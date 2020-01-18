@@ -1,0 +1,122 @@
+img{
+	height: 300px;
+}
+
+h1{
+	font-weight: bold;
+}
+
+.font-size-medium{
+	font-size: 50px;
+}
+
+.blue-text{
+	color: blue;
+}
+
+.font-narrow{
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+.container-background{
+	background-color: #FFE8E1;
+}
+.text-center{
+	text-align: center;
+}
+.purple{
+	background-color: #b19cba;
+}
+.green{
+	background-color: #9cbab2;
+}
+.website-color{
+	background-color: #131112;
+  text-align: center;
+}
+.eggshell{
+  background-color: #FFDBB5;
+}
+.babyblue{
+  background-color: #CDE6F5;
+}
+/* Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #C41E3D;
+  color: white;
+}
